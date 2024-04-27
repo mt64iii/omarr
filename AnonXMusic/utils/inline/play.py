@@ -66,7 +66,7 @@ def stream_markup_timer(_, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],
-        [InlineKeyboardButton(text=f"↑𝐒𝐘𝐑𝐈𝐀", url=f"https://t.me/syrea_surs")],
+        [InlineKeyboardButton(text=f"ابن بغداد", url=f"https://t.me/i_4_r")],
     ]
     return buttons
 
@@ -80,7 +80,7 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),           
         ],
-        [InlineKeyboardButton(text=f"↑𝐒𝐘𝐑𝐈𝐀", url=f"https://t.me/syrea_surs")],
+        [InlineKeyboardButton(text=f"ابن بغداد", url=f"https://t.me/i_4_r")],
     ]
     return buttons
 
