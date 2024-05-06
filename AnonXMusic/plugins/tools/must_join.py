@@ -11,7 +11,7 @@ async def must_join_channel(bot: Client, msg: Message):
         try:
             await bot.get_chat_member("O77880", msg.from_user.id)
         except UserNotParticipant:
-            if "https://t.me/077880".isalpha():
+            if "https://t.me/O77880".isalpha():
                 link = "https://t.me/O77880"
             else:
                 chat_info = await bot.get_chat("O77880")
