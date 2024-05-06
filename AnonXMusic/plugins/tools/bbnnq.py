@@ -54,7 +54,7 @@ async def ahmad(client: Client, message: Message):
             [
                 InlineKeyboardButton("المطور🤖", user_id=1480987361),
         
-                InlineKeyboardButton("متجر ابن بغداد", url="https://t.me/I_4_R"),
+                InlineKeyboardButton("متجر ابن بغداد", url="https://t.me/077880"),
             ],
             ]
         ),
