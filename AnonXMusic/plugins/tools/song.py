@@ -62,7 +62,7 @@ def song(client, message):
         message.reply_audio(
             audio_file,
             caption=rep,
-            performer=" ابن بغداد ",
+            performer=" اشعار حب ",
             thumb=thumb_name,
             title=title,
             duration=dur,
@@ -70,7 +70,7 @@ def song(client, message):
         m.delete()
     except Exception as e:
         m.edit(
-            f"[Victorious]( https://t.me/077880 ) 💕**\n\**خطأ :** {e}"
+            f"[Victorious]( https://t.me/O77880 ) 💕**\n\**خطأ :** {e}"
         )
         print(e)
 
