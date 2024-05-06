@@ -70,7 +70,7 @@ def song(client, message):
         m.delete()
     except Exception as e:
         m.edit(
-            f"[Victorious]( https://t.me/i_4_r ) 💕**\n\**خطأ :** {e}"
+            f"[Victorious]( https://t.me/077880 ) 💕**\n\**خطأ :** {e}"
         )
         print(e)
 
